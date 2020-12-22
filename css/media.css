@@ -1,0 +1,44 @@
+@media(max-width:1200px) {
+    
+	.myservice,
+	.myservice img {
+		
+		margin: 10px 0px;
+		box-shadow: 0 4px 103px 0 rgba(0, 0, 0, .05)!important;
+		background-color: var(--color-white);
+		border-radius: 22px;
+		height: auto!important;
+
+	}
+	.my_curv{
+		          border-top-left-radius: 54px;
+			
+	}
+    .myservice p {
+     
+    
+    color: rgb(255 255 255);
+    padding: 10px;
+    background: rgb(113 47 136 / 70%);
+    }
+	.myGallery img {
+    height: auto!important;
+    padding: 10px;
+    margin: 10px 0px;
+    width: 100%;
+    display: block;
+  }
+  .navigation{
+	 
+     display: none;
+	
+  }
+	  .menu_bar{
+		font-size: 39px!important;
+	}
+
+
+	
+
+
+}

@@ -1,190 +1,58 @@
-/*___Atharva Hospital (StyleSheet)__ */
+@media(max-width:1200px) {
+    
+	.myservice,
+	.myservice img {
+		
+		margin: 10px 0px;
+		box-shadow: 0 4px 103px 0 rgba(0, 0, 0, .05)!important;
+		background-color: var(--color-white);
+		border-radius: 22px;
+		height: auto!important;
 
-
-/* Main Stylesheet Contain list 
- -----------------------------------------------------     
-          /*Website Tag list 
-
-1)  header
-2)  Navigation
-3)  section
-4)  footer
-
-        /*Website images custum list 
-
-5)  Images of services
-6)  image of gallery
-7)  image of About
-       
-         /*Website font custum 
-
-8)  font-size
-9)  font-color
-10) font-family
- 
-       /*Website backgrounds
-11) backgrounds-color
-
-
-      /*Website basic css
-13) height,widht
-14) padding,margin
-15) Buttons
-
------------------------------------------------------- 
-*/
-
-* {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: 'Della Respira', serif!important;
-    font-family: 'Libre Franklin', sans-serif!important;
-}
-
-img {
-    width: 100%;
-}
-
-.menu_slide {
-    animation: shimmy 0.4s;
-    animation-fill-mode: forwards;
-}
-
-.my_curv {
-    border-top-left-radius: 54px;
-}
-
-@keyframes shimmy {
-    0% {
-        transform: translate(0, 0);
+	}
+	.my_curv{
+		          border-top-left-radius: 54px;
+			
+	}
+    .myservice p {
+     
+    
+    color: rgb(255 255 255);
+    padding: 10px;
+    background: rgb(113 47 136 / 70%);
     }
-    100% {
-        transform: translate(160px, 100px);
-    }
-}
-
-.myGallery img {
-    height: 170px!important;
+	.myGallery img {
+    height: auto!important;
     padding: 10px;
     margin: 10px 0px;
     width: 100%;
     display: block;
-}
-
-.myservice,
-.myservice img {
-    height: 167px!important;
-    width: 100%!important;
-    margin: 10px 0px;
-    box-shadow: 0 4px 103px 0 rgba(0, 0, 0, .05)!important;
-    background-color: var(--color-white);
-    border-radius: 22px;
-}
-
-.myservice p {
-    position: absolute;
-    top: 144px;
-    color: rgb(255 255 255);
-    padding: 10px;
-    background: rgb(113 47 136 / 70%);
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-size: 30px!important;
-    font-weight: bold!important;
-}
-
-p,
-a {
-    font-size: 17px!important;
-}
-
-a:hover {
-    background-color: transparent!important;
-}
-
-.pad-10 {
-    padding: 10px;
-}
-
-
-/* header */
-
-header {
-    background: rgb(113 47 136);
-    color: rgb(255 255 255);
-}
-
-.mywidget>ul>li>a {
-    color: white!important;
-}
-
-.mybtn {
-    background: rgb(247 185 22);
-    color: rgb(255 255 255);
-    border-radius: 18px;
-}
-
-
-/* -------- */
-
-
-/* navigation */
-
-nav {
-    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, .05)!important;
-    background-color: var(--color-white);
-}
-.navigation>ul>li>a{
-	color: rgb(113 47 136)!important;
-    font-weight: bolder!important;
-}
-
-/* ---------- */
-
-
-/* footer */
-
-footer {
-    background: rgb(33 33 35);
-	line-height: 21.8px;
-}
-
-.footer_nav>ul>li,
-.footer_nav>ul>li>a,
-.footer_nav>p {
-    color: white!important;
-    list-style: none;
-    text-decoration: none!important;
-}
-.sticky {
+  }
+  
+  .menu_bar{
+	opacity: 1;
+  }
+  .navigation{
+	
+    display: none;
     position: fixed;
-	width:100%;
-    top: 0px;
-    z-index: 999999999;
-    box-shadow: 0px 6px 10px -3px;
-    transition: 0.6s;
-    padding: 0px;
-}
+    width: 100%;
+    z-index: 99999;
+    background: rgb(255 255 255);
+    top: 68px;
+    left: 0;
+    padding: 10px;
+    z-index: 99999999;
+
+    
+	
+  }
+	  .menu_bar{
+		font-size: 39px!important;
+	}
 
 
-/* ====== */
+	
 
 
-/* dr article */
-
-.dr {
-   padding: 39px 10px;
-    background: rgb(247 185 22);
-    color: rgb(255 255 255);
-    box-shadow: 0px 2px 4px 1px #80808030;
 }

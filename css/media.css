@@ -29,8 +29,18 @@
     display: block;
   }
   .navigation{
-	 
-     display: none;
+	
+    display: none;
+    position: fixed;
+    width: 100%;
+    z-index: 99999;
+    background: rgb(255 255 255);
+    top: 68px;
+    left: 0;
+    padding: 10px;
+    z-index: 99999999;
+
+    
 	
   }
 	  .menu_bar{
